@@ -1,1 +1,147 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Reset SCSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Unset all list styles for non-classed lists */
+ul,
+ol {
+  padding-left: 2em;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Reset a elements */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form elements styling */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5em;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Table elements */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 0.5em;
+  text-align: left;
+}
+
+/* Remove default fieldset styles */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Normalize vertical alignment in all browsers */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+:root {
+  --background-color: #a7a7a7;
+  --background-color-container: #e6e6e6;
+  --text-color: #333333;
+  --primary-color: #282829;
+  --secondary-color: #6c757d;
+}
+
+[data-theme="dark"] {
+  --background-color: #2e2d2d;
+  --background-color-container: #a3a3a3;
+  --text-color: #f5f5f5;
+  --primary-color: #a3a3a3;
+  --secondary-color: #b0bec5;
+}
+
+body {
+  background:var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}

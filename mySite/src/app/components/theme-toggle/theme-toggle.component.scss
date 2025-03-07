@@ -1,0 +1,49 @@
+:host {
+  display: flex;
+  justify-content: end;
+  width: 98.5%;
+}
+button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+.theme-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  svg {
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: rotate(15deg);
+    }
+  }
+}
