@@ -1,0 +1,17 @@
+:host {
+  text-align: center;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: bottom 0.3s ease;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: var(--background-color-container);
+  border-top: 1px solid var(--primary-colo);
+}
+
