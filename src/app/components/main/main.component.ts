@@ -5,6 +5,7 @@ import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { ThemeToggleComponent } from '../theme-toggle/theme-toggle.component';
 import { SeparatorComponent } from '../separator/separator.component';
+import { MainBoxesComponent } from '../main-boxes/main-boxes.component';
 
 @Component({
   selector: 'app-main',
@@ -15,7 +16,8 @@ import { SeparatorComponent } from '../separator/separator.component';
     HeaderComponent,
     FooterComponent,
     ThemeToggleComponent,
-    SeparatorComponent
+    SeparatorComponent,
+    MainBoxesComponent
   ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',
