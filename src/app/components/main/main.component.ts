@@ -8,18 +8,17 @@ import { SeparatorComponent } from '../separator/separator.component';
 import { MainBoxesComponent } from '../main-boxes/main-boxes.component';
 
 @Component({
-  selector: 'app-main',
-  standalone: true,
-  imports: [
-    ContainerComponent,
-    CommonModule,
-    HeaderComponent,
-    FooterComponent,
-    ThemeToggleComponent,
-    SeparatorComponent,
-    MainBoxesComponent
-  ],
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.scss',
+    selector: 'app-main',
+    imports: [
+        ContainerComponent,
+        CommonModule,
+        HeaderComponent,
+        FooterComponent,
+        ThemeToggleComponent,
+        SeparatorComponent,
+        MainBoxesComponent
+    ],
+    templateUrl: './main.component.html',
+    styleUrl: './main.component.scss'
 })
 export class MainComponent {}
