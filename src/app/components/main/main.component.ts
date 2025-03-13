@@ -7,6 +7,7 @@ import { ThemeToggleComponent } from '../theme-toggle/theme-toggle.component';
 import { SeparatorComponent } from '../separator/separator.component';
 import { MainBoxesComponent } from '../main-boxes/main-boxes.component';
 import { CarouselComponent } from '../carousel/carousel.component';
+import { AngularComponent } from '../angular/angular.component';
 
 @Component({
     selector: 'app-main',
@@ -18,7 +19,8 @@ import { CarouselComponent } from '../carousel/carousel.component';
         ThemeToggleComponent,
         SeparatorComponent,
         MainBoxesComponent,
-        CarouselComponent
+        CarouselComponent,
+        AngularComponent
     ],
     templateUrl: './main.component.html',
     styleUrl: './main.component.scss'
