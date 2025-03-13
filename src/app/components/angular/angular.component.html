@@ -3,9 +3,9 @@
   <div class="angular-container">
     <div class="angular-elementos">
       <div class="angular-img">
-        <p-galleria [value]="images" (valueChange)="onValueChange($event)" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '500px'}" [numVisible]="5">
+        <p-galleria [value]="images" (valueChange)="onValueChange($event)" [responsiveOptions]="responsiveOptions" [numVisible]="7">
           <ng-template pTemplate="item" let-item>
-            <img [src]="item.itemImageSrc" style="width: 100%; border-radius: 16px;" />
+            <img [src]="item.itemImageSrc"/>
           </ng-template>
           <ng-template pTemplate="thumbnail" let-item>
             <img [src]="item.thumbnailImageSrc" />
