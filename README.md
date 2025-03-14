@@ -1,27 +1,64 @@
-# MySite
+# My Site - Angular Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+## 📝 Descrição
+Projeto desenvolvido em Angular 19 que apresenta componentes para exibição de informações sobre tecnologias, incluindo Laravel e Angular, com galerias de imagens interativas.
 
-## Development server
+## 🔧 Tecnologias Utilizadas
+- Angular
+- PrimeNG (Galleria Component)
+- TypeScript
+- SCSS
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Componentes Principais
 
-## Code scaffolding
+### Angular Component
+- Componente standalone
+- Galeria de imagens responsiva
+- Layout adaptativo para diferentes tamanhos de tela
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Laravel Component
+- Galeria de imagens com thumbnails
+- Layout responsivo
+- Integração com PrimeNG Galleria
 
-## Build
+## 🎨 Recursos
+- Galleria com suporte para múltiplas imagens
+- Opções responsivas configuradas para diferentes breakpoints:
+  - Desktop (1024px): 5 imagens visíveis
+  - Tablet (768px): 3 imagens visíveis
+  - Mobile (560px): 1 imagem visível
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🚀 Como Executar
 
-## Running unit tests
+1. Instale as dependências:
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Execute o projeto:
+```bash
+ng serve
+```
 
-## Running end-to-end tests
+3. Acesse `http://localhost:4200` no seu navegador
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 📋 Pré-requisitos
+- Node.js
+- Angular CLI
+- PrimeNG
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🔍 Estrutura do Projeto
+```
+src/
+  ├── app/
+  │   └── components/
+  │       ├── angular/
+  │       │   ├── angular.component.ts
+  │       │   ├── angular.component.html
+  │       │   └── angular.component.scss
+  │       └── laravel/
+  │           ├── laravel.component.ts
+  │           ├── laravel.component.html
+  │           └── laravel.component.scss
+  └── assets/
+      └── 1696636178024.jpg

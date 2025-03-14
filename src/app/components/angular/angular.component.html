@@ -1,0 +1,28 @@
+<div class="angular-content">
+  <h2>Angular</h2>
+  <div class="angular-container">
+    <div class="angular-elementos">
+      <div class="angular-img">
+        <p-galleria
+          [value]="images"
+          (valueChange)="onValueChange($event)"
+          [responsiveOptions]="responsiveOptions"
+          [numVisible]="4"
+        >
+          <ng-template pTemplate="item" let-item>
+            <img [src]="item.itemImageSrc" />
+          </ng-template>
+          <ng-template pTemplate="thumbnail" let-item>
+            <img [src]="item.thumbnailImageSrc" />
+          </ng-template>
+        </p-galleria>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sint
+        reiciendis delectus in quod eveniet. Cupiditate exercitationem
+        aspernatur, praesentium sunt ducimus quas quod mollitia non harum
+        dignissimos quibusdam inventore at.
+      </p>
+    </div>
+  </div>
+</div>
