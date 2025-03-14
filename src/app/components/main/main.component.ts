@@ -8,6 +8,9 @@ import { SeparatorComponent } from '../separator/separator.component';
 import { MainBoxesComponent } from '../main-boxes/main-boxes.component';
 import { CarouselComponent } from '../carousel/carousel.component';
 import { AngularComponent } from '../angular/angular.component';
+import { LaravelComponent } from '../laravel/laravel.component';
+import { AboutComponent } from '../about/about.component';
+import { ContactsComponent } from '../contacts/contacts.component';
 
 @Component({
     selector: 'app-main',
@@ -20,7 +23,10 @@ import { AngularComponent } from '../angular/angular.component';
         SeparatorComponent,
         MainBoxesComponent,
         CarouselComponent,
-        AngularComponent
+        AngularComponent,
+        LaravelComponent,
+        AboutComponent,
+        ContactsComponent
     ],
     templateUrl: './main.component.html',
     styleUrl: './main.component.scss'

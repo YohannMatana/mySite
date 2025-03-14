@@ -1,13 +1,29 @@
-.main-boxes {
+.contact-boxes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 1rem;
-  flex-wrap: nowrap;
   gap: 20px;
+  padding: 4rem 1rem;
 
-  .box1, .box2 {
+  h1 {
+    font-size: 36px;
+  }
+
+  .box-socials {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+  }
+  .box-contacts {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+  }
+  .box1,
+  .box2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -15,15 +31,13 @@
     background: var(--background-color-container);
     box-shadow: 0px 8px 16px 0px rgba(61, 139, 253, 0.15);
     width: 100%;
-    max-width: 600px;
+
     min-height: 500px;
     max-height: 600px;
-    padding: 1.5rem;
-    box-sizing: border-box;
     align-items: center;
 
     &:hover {
-      transform: scale(1.03);
+      transform: scale(1.02);
       transition: transform 0.3s ease;
     }
     i {
@@ -32,8 +46,9 @@
   }
 
   p {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: 450;
+    padding: 1.5rem;
   }
 }
