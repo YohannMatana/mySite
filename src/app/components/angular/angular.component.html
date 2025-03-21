@@ -2,27 +2,25 @@
   <h2>Angular</h2>
   <div class="angular-container">
     <div class="angular-elementos">
+      <p>
+        Estes são alguns dos meus projetos desenvolvidos em Angular, inclusive este site também foi desenvolvido utilizando Angular. As imagens mostram alguns dos trabalhos e componentes que ja programei usando este framework poderoso e versátil.
+      </p>
       <div class="angular-img">
         <p-galleria
           [value]="images"
           (valueChange)="onValueChange($event)"
           [responsiveOptions]="responsiveOptions"
-          [numVisible]="4"
+          [numVisible]="5"
         >
           <ng-template pTemplate="item" let-item>
             <img [src]="item.itemImageSrc" />
           </ng-template>
-          <ng-template pTemplate="thumbnail" let-item>
-            <img [src]="item.thumbnailImageSrc" />
+          <ng-template pTemplate="thumbnail" let-item >
+            <img [src]="item.thumbnailImageSrc" style="height: 100px; object-fit: cover;"/>
           </ng-template>
         </p-galleria>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sint
-        reiciendis delectus in quod eveniet. Cupiditate exercitationem
-        aspernatur, praesentium sunt ducimus quas quod mollitia non harum
-        dignissimos quibusdam inventore at.
-      </p>
+
     </div>
   </div>
 </div>

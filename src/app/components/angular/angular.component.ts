@@ -15,13 +15,13 @@ export class AngularComponent {
 
   constructor() {
     this.images = [
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' }
+      { itemImageSrc: './assets/humanz3.png', thumbnailImageSrc: './assets/humanz3.png' },
+      { itemImageSrc: './assets/humanz2.png', thumbnailImageSrc: './assets/humanz2.png' },
+      { itemImageSrc: './assets/humanz4.png', thumbnailImageSrc: './assets/humanz4.png' },
+      { itemImageSrc: './assets/humanz1.png', thumbnailImageSrc: './assets/humanz1.png' },
+      { itemImageSrc: './assets/spotify.png', thumbnailImageSrc: './assets/spotify.png' },
+      { itemImageSrc: './assets/indexa1.png', thumbnailImageSrc: './assets/indexa1.png' },
+      { itemImageSrc: './assets/indexa2.png', thumbnailImageSrc: './assets/indexa2.png' },
     ];
 
     this.responsiveOptions = [

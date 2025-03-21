@@ -14,13 +14,11 @@ export class LaravelComponent {
 
   constructor() {
     this.images = [
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' },
-      { itemImageSrc: './assets/1696636178024.jpg', thumbnailImageSrc: './assets/1696636178024.jpg' }
+      { itemImageSrc: './assets/pao1.png', thumbnailImageSrc: './assets/pao1.png' },
+      { itemImageSrc: './assets/pao2.png', thumbnailImageSrc: './assets/pao2.png' },
+      { itemImageSrc: './assets/pao3.png', thumbnailImageSrc: './assets/pao3.png' },
+      { itemImageSrc: './assets/pao4.png', thumbnailImageSrc: './assets/pao4.png' },
+
     ];
 
     this.responsiveOptions = [
