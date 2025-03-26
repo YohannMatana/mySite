@@ -51,14 +51,7 @@ ng serve
 ```
 src/
   ├── app/
-  │   └── components/
-  │       ├── angular/
-  │       │   ├── angular.component.ts
-  │       │   ├── angular.component.html
-  │       │   └── angular.component.scss
-  │       └── laravel/
-  │           ├── laravel.component.ts
-  │           ├── laravel.component.html
-  │           └── laravel.component.scss
+  │   └── components/       
+  │          
   └── assets/
       └── 1696636178024.jpg
